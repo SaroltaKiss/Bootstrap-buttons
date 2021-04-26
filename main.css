@@ -1,4 +1,32 @@
-/* The base of every button */
+
+HTML CSSResult Skip Results Iframe
+EDIT ON
+/* ==== GENERAL STYLES ==== */
+
+body {
+  background-color: #eee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  max-width: 470px;
+  padding: 10px;
+  margin: 20px auto;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
 .btn {
     display: inline-block;
     text-decoration: none;
@@ -69,4 +97,14 @@
 .btn-warning:hover {
     background-color: #ec971f;
     border-color: #d58512;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+  
+.btn-danger:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
 }
